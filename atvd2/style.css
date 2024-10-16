@@ -1,0 +1,105 @@
+/* Estilos Gerais */
+body {
+    font-family: 'Poppins', sans-serif; /* Define uma fonte moderna e clean */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo neutra */
+    color: #555; /* Cor de texto principal */
+}
+
+
+/* Cabeçalho */
+header {
+    background-color: #ffcccb; /* Rosa claro para o cabeçalho */
+    text-align: center; /* Centraliza o conteúdo dentro do cabeçalho */
+    padding: 20px 0; /* Espaçamento acima e abaixo */
+}
+
+
+/* Estilo do Título */
+h1 {
+    font-size: 2.5em; /* Tamanho grande para o título principal */
+    color: #fcf3f3; /* Cor clara para contrastar com o fundo rosa */
+    margin: 0; /* Remove margens extras */
+    letter-spacing: 2px; /* Espaçamento entre as letras */
+}
+
+
+/* Menu de Navegação */
+nav {
+    background-color: #9AC9E2; /* Cor azul claro para o menu */
+    text-align: center; /* Centraliza o menu */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombras leves para dar profundidade */
+}
+
+
+/* Estilo da lista do menu */
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Exibe os itens da lista de forma horizontal */
+    justify-content: center; /* Centraliza os itens no container */
+}
+
+
+/* Estilo dos itens do menu */
+nav ul li {
+    margin: 0 15px; /* Espaçamento entre os links */
+}
+
+
+/* Links do menu */
+nav ul li a {
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    font-size: 18px; /* Tamanho confortável para o texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transição suave para hover */
+}
+
+
+/* Efeito hover nos links */
+nav ul li a:hover {
+    background-color: #f78a9d; /* Muda a cor do fundo ao passar o mouse */
+    border-radius: 5px; /* Arredonda os cantos do link no hover */
+}
+
+
+/* Seções principais */
+section {
+    padding: 40px; /* Espaçamento interno para dar respiro ao conteúdo */
+    text-align: center; /* Centraliza todo o texto dentro da seção */
+    max-width: 1200px; /* Define a largura máxima para melhorar a leitura */
+    margin: 0 auto; /* Centraliza a seção horizontalmente */
+    color: #555; /* Cor do texto para contraste */
+}
+
+
+/* Títulos das seções */
+h2 {
+    font-size: 28px; /* Define um tamanho de fonte maior para os títulos das seções */
+    color: #555; /* Cor consistente com o corpo do texto */
+    margin-bottom: 20px; /* Espaço entre o título e o conteúdo seguinte */
+}
+
+
+/* Parágrafos */
+p {
+    font-size: 18px; /* Tamanho de fonte padrão para boa leitura */
+    line-height: 1.6; /* Aumenta o espaçamento entre linhas para melhor legibilidade */
+    margin-bottom: 20px; /* Espaçamento entre parágrafos */
+}
+
+
+/* Rodapé */
+footer {
+    background-color: #ddd0d0; 
+    color: rgb(5, 5, 5);
+    text-align: center;
+    padding: 10px;
+    position: relative; /* Altera para relative */
+    width: 100%;
+    margin-top: auto; /* Isso garante que o rodapé sempre fique na parte inferior */
+    box-shadow: 0px -4px 8px rgba(0, 0, 0, 0.1); /* Sombras */
+}
